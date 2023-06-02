@@ -4,6 +4,9 @@
 	"parameters": {
 		"factoryName": {
 			"value": "gitdatafactorynew"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
 		}
 	}
 }
