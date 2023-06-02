@@ -1,0 +1,37 @@
+{
+	"name": "dummydataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "csv.csv",
+				"folderPath": "Input",
+				"container": "adfcont"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "satish",
+				"type": "String"
+			},
+			{
+				"name": "male",
+				"type": "String"
+			},
+			{
+				"name": "9849",
+				"type": "String"
+			}
+		]
+	}
+}
