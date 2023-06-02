@@ -1,0 +1,9 @@
+{
+	"name": "GitDatafactoryNew",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4e9bbd06-6948-45ed-910c-167a41989acb",
+		"tenantId": "823e6e22-de16-463b-b8aa-1d1f0605b6bb"
+	}
+}
